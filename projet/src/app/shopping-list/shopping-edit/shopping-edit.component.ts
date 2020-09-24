@@ -59,4 +59,6 @@ export class ShoppingEditComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
     this.souscription.unsubscribe();
   }
+
+  
 }
